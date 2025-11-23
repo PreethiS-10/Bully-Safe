@@ -128,7 +128,7 @@ def main():
     """)
 
     # Initialize detector
-    detector = CyberbullyingDetector('model/cyberbully_model.pkl')
+    detector = CyberbullyingDetector('model/cyberbully_model_hybrid.pkl')
 
     if detector.model is None:
         st.error("Please train the model first by running train_model.py")
